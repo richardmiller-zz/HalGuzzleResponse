@@ -1,0 +1,20 @@
+{
+    "name":         "rmiller/hal-guzzle-response",
+    "description":  "Adds Hal resources to Guzzle Responses",
+    "type":         "library",
+    "require": {
+        "php": ">=5.4",
+        "nocarrier/hal": "~0.9",
+        "guzzlehttp/guzzle": "~5.0."
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1@dev",
+        "rmiller/exemplify-extension": "~0.2",
+        "rmiller/phpspec-run-extension": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RMiller\\HalGuzzleResponse\\": "src/"
+        }
+    }
+}
