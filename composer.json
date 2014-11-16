@@ -2,6 +2,15 @@
     "name":         "rmiller/hal-guzzle-response",
     "description":  "Adds Hal resources to Guzzle Responses",
     "type":         "library",
+    "keywords": ["guzzle", "hal"],
+    "homepage": "https://github.com/richardmiller/HalGuzzleResponse",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Miller",
+            "email": "mrrmiller46@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.4",
         "nocarrier/hal": "~0.9",
