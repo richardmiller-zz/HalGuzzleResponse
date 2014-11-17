@@ -13,7 +13,7 @@ resource created from the response body.
 Require the extension:
 
 ```
-$ composer require rmiller/hal-guzzle-response:dev-master
+$ composer require rmiller/hal-guzzle-response:~0.1
 ```
 
 ## Usage
