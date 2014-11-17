@@ -21,9 +21,9 @@ $ composer require rmiller/hal-guzzle-response:~0.1
 Attach the listener:
 
 ```php
-$client = new GuzzleHttp\Client();
+$client = new \GuzzleHttp\Client();
 $emitter = $client->getEmitter();
-$subscriber = new RMiller\HalGuzzleResponse();
+$subscriber = new \RMiller\HalGuzzleResponse();
 $emitter->attach($subscriber);
 ```
 
@@ -31,7 +31,7 @@ Get the Hal resource from the response:
 
 ```php
 $response = $client->get($url);
-$hal = $response->hal(); //Nocarrier\Hal
+$hal = $response->hal(); //\Nocarrier\Hal
 ```
 
 Note: an attempt will be made to convert the response body from JSON and XML to a Hal resource.
