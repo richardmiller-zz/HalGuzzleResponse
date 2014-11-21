@@ -1,6 +1,9 @@
 HalGuzzleResponse
 =================
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/richardmiller/HalGuzzleResponse/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/richardmiller/HalGuzzleResponse/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/richardmiller/HalGuzzleResponse/badges/build.png?b=master)](https://scrutinizer-ci.com/g/richardmiller/HalGuzzleResponse/build-status/master)
+
 [Guzzle](https://github.com/guzzle/guzzle) event subscriber to decorate
 responses to provide Hal resources.
 
