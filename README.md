@@ -26,7 +26,7 @@ Attach the listener:
 ```php
 $client = new \GuzzleHttp\Client();
 $emitter = $client->getEmitter();
-$subscriber = new \RMiller\HalGuzzleResponse();
+$subscriber = new \RMiller\HalGuzzleResponse\GuzzleSubscriber();
 $emitter->attach($subscriber);
 ```
 
