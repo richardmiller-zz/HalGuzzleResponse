@@ -39,9 +39,9 @@ trait ResponseDecorator
         return $this->innerResponse->getHeaders();
     }
 
-    public function getHeader($header)
+    public function getHeader($header, $asArray = false)
     {
-        return $this->innerResponse->getHeader($header);
+        return $this->innerResponse->getHeader($header, $asArray);
     }
 
     public function getHeaderAsArray($header)
